@@ -6,11 +6,11 @@ Dalam repo ini berisikan sebuah starter template untuk [Vite](https://vitejs.dev
 
 ## Library
 
-- Vite: Perkakas frontend generasi terbaru, memberikan path alias `@` untuk memanggil element yang berada di `./src`
-- React-router-dom: Perutean Deklaratif Router untuk React js
-- ESLint: Menemukan dan memperbaiki masalah dalam kode JavaScript Anda.
+- Vite: Memberikan path alias `@/` untuk memanggil element yang berada di `./src`.
+- React-router-dom: Perutean Deklaratif Router untuk React js.
+- ESLint: Menemukan dan memperbaiki masalah dalam kode JavaScript dengan tambahan plugin.
 - TailwindCSS: Membuat situs web modern dengan cepat tanpa harus meninggalkan HTML Anda.
-- Prettier: Pemformat kode yang beropini.
+- Prettier: Pemformat kode yang konsisten.
 
 ## Cara Memakai Aplikasi
 
@@ -31,20 +31,28 @@ Kalian sudah berhasil membuat repository di github. Sekarang kalian bisa meng-cl
 ## Scripts
 
 ### Start Dev
+
 `npm run dev` atau `pnpm run dev` atau `yarn run dev` dan buka pada browser pada `http://localhost:3000`
 
 ### Build dan Production
+
 `npm run build` atau `pnpm run build` atau `yarn run build`
 
 ### Locally Preview Production atau Build
+
 `npm start` atau `yarn start` dan buka pada browser pada `http://localhost:3000`
 
-### Format File  
-`npm run format` atau `pnpm run format` atau `yarn run format`
+### Lint Untuk Melihat Kesalahan
+
+`npm run lint` atau `yarn run lint` atau `pnpm run lint`
+
+### Lint Untuk Memperbaiki Kesalahan
+
+`npm run lint:fix` atau `yarn run lint:fix` atau `pnpm run lint:fix`
 
 ## Tunjukan Support Kalian
 
-- Dengan cara memberi ⭐ jika kamu menyukai project ini 
+- Dengan cara memberi ⭐ jika kamu menyukai project ini
 - Dengan cara berkontribusi pada project ini untuk meningkatkan kualitas code
 
 # Social Media
