@@ -2,7 +2,23 @@
 
 ## Deskripsi
 
-Dalam repo ini berisikan sebuah starter template untuk [Vite](https://vitejs.dev) dan [React](https://react.dev) yang biasa saya gunakan, bersifat open-source dan dapat dirubah sesuai dengan kebutuhan kalian. Termasuk banyak alat dan pustaka yang berguna yang menerapkan praktik terbaik dan perbaikan otomatis saat disimpan.
+Dalam repository ini berisikan sebuah starter template untuk [Vite](https://vitejs.dev) dan [React](https://react.dev) yang biasa saya gunakan, bersifat open-source dan dapat dirubah sesuai dengan kebutuhan kalian. Termasuk banyak alat dan pustaka yang berguna yang menerapkan praktik terbaik dan perbaikan otomatis saat disimpan.
+
+## What's New?
+
+Dalam repository ini memiliki beberapa configurasi yang sudah disesuaikan dengan kebutuhan, seperti:
+
+- Menerapkan eslint bersama dengan pustaka nya untuk menerapkan praktik terbaik
+- Konfigurasi vite:
+  - aplikasi akan berjalan konsisten di port 3000 (anda bisa merubah nya di `vite.config.json`)
+  - memungkinkan untuk mengimport dengan menggunakan alias
+- Konfigurasi vscode:
+  - otomatis akan menginstall extensions yang dibutuhkan
+  - otomatis memformat dan lint ketika file disimpan
+- Konfigurasi Javascript:
+  - menerapkan path utama yaitu di `root` directory
+  - memberitahu file javascript untuk menerapkan path `@/` sama dengan `src/*`
+- Menerapkan tailwindcss memungkinkan untuk membuat web yang modern
 
 ## Library
 
