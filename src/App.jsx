@@ -13,6 +13,7 @@ export default function App() {
           <br />
           Next Generation <br /> Frontend Tooling
         </h1>
+
         <p className="font-semibold text-xl sm:text-4xl text-gray-400 mb-8">
           Get ready for a development environment <br /> that can finally catch
           up with you.
@@ -34,7 +35,7 @@ export default function App() {
             height={300}
           />
         </figure>
-        <div className="absolute w-52 sm:w-96 h-52 sm:h-96 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400 rounded-full blur-3xl"></div>
+        <div className="absolute w-52 sm:w-96 h-52 sm:h-96 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-400 rounded-full blur-3xl" />
       </aside>
     </main>
   );
