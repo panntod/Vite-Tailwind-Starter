@@ -5,14 +5,8 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  plugins: ["react", "jsx-a11y", "import", "unused-imports"],
-  extends: [
-    "airbnb",
-    "airbnb/hooks",
-    "plugin:import/recommended",
-    "plugin:jsx-a11y/recommended",
-    "prettier",
-  ],
+  plugins: ["react", "import", "unused-imports"],
+  extends: ["airbnb", "airbnb/hooks", "plugin:import/recommended", "prettier"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -57,9 +51,6 @@ module.exports = {
     },
   ],
   rules: {
-    "jsx-a11y/click-events-have-key-events": "warn",
-    "jsx-a11y/label-has-associated-control": "warn",
-    "jsx-a11y/no-noninteractive-element-interactions": "warn",
     "jsx-quotes": ["error", "prefer-double"],
     "no-unused-vars": "warn",
     "react/function-component-definition": "off",
