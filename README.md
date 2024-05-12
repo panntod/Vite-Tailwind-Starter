@@ -44,6 +44,12 @@ Setelah itu kalian akan diarahkan untuk membuat repository baru, beri nama repos
 
 Kalian sudah berhasil membuat repository di github. Sekarang kalian bisa meng-clone atau mendownloadnya
 
+### Optional
+
+Jika kalian ingin membuat aplikasi multi-page, jalankan perintah ini:
+
+`npm install -S react-router-dom` atau `pnpm install react-router-dom`
+
 ## Scripts
 
 ### Start Dev
