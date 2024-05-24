@@ -17,7 +17,7 @@ Dalam repository ini memiliki beberapa configurasi yang sudah disesuaikan dengan
   - otomatis memformat dan lint ketika file disimpan
 - Konfigurasi Javascript:
   - menerapkan path utama yaitu di `root` directory
-  - memberitahu file javascript untuk menerapkan path `@/` sama dengan `src/*`
+  - memberitahu file javascript untuk menerapkan path `@/*` sama dengan `src/*`
 - Menerapkan tailwindcss memungkinkan untuk membuat web yang modern
 
 ## Library
