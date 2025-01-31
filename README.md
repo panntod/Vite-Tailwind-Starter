@@ -1,36 +1,36 @@
-# Vite + React Starter Template🚀
+# Vite + React Starter Template 🚀
 
-## Deskripsi
+## 🌟 Selamat datang di Vite + React Starter Template! 🌟
 
-Dalam repository ini berisikan sebuah starter template untuk [Vite](https://vitejs.dev) dan [React](https://react.dev) yang biasa saya gunakan, bersifat open-source dan dapat dirubah sesuai dengan kebutuhan kalian. Termasuk banyak alat dan pustaka yang berguna yang menerapkan praktik terbaik dan perbaikan otomatis saat disimpan.
+Repository ini berisi starter template untuk [Vite](https://vitejs.dev) dan [React](https://react.dev) yang siap digunakan. Template ini bersifat open-source dan dapat disesuaikan dengan kebutuhan Anda. Dilengkapi dengan berbagai alat dan pustaka yang berguna, template ini menerapkan praktik terbaik dan perbaikan otomatis saat disimpan.
 
-## What's New?
+## 🌈 What's New?
 
-Dalam repository ini memiliki beberapa configurasi yang sudah disesuaikan dengan kebutuhan, seperti:
+Template ini sudah dilengkapi dengan beberapa konfigurasi yang disesuaikan dengan kebutuhan pengembangan modern:
 
-- Menerapkan eslint bersama dengan pustaka nya untuk menerapkan praktik terbaik
-- Konfigurasi vite:
-  - aplikasi akan berjalan konsisten di port 3000 (anda bisa merubah nya di `vite.config.json`)
-  - memungkinkan untuk mengimport dengan menggunakan alias
-- Konfigurasi vscode:
-  - otomatis akan menginstall extensions yang dibutuhkan
-  - otomatis memformat dan lint ketika file disimpan
-- Konfigurasi Javascript:
+- `ESLint`: Menerapkan praktik terbaik dalam penulisan kode JavaScript.
+- `Vite Configuration`: Mendukung import dengan menggunakan alias.
+- `VS Code Configuration`:
+  - Otomatis menginstal ekstensi yang dibutuhkan.
+  - Otomatis memformat dan melakukan linting saat file disimpan.
+- `JavaScript Configuration`:
   - menerapkan path utama yaitu di `root` directory
   - memberitahu file javascript untuk menerapkan path `@/*` sama dengan `src/*`
-- Menerapkan tailwindcss memungkinkan untuk membuat web yang modern
+- `TailwindCSS`: Membuat situs web modern dengan cepat tanpa harus meninggalkan HTML Anda.
 
-## Library
+## 📚 Library yang Digunakan
 
-- Vite: Memberikan path alias `@/` untuk memanggil element yang berada di `./src`.
-- React-router-dom: Perutean Deklaratif Router untuk React js.
-- ESLint: Menemukan dan memperbaiki masalah dalam kode JavaScript dengan tambahan plugin.
-- TailwindCSS: Membuat situs web modern dengan cepat tanpa harus meninggalkan HTML Anda.
-- Prettier: Pemformat kode yang konsisten.
+- `Vite`: Memberikan path alias `@/` untuk memanggil element yang berada di `./src`.
+- `React-router-dom`: Perutean Deklaratif Router untuk React js.
+- `ESLint`: Menemukan dan memperbaiki masalah dalam kode JavaScript dengan tambahan plugin.
+- `TailwindCSS`: Membuat situs web modern dengan cepat tanpa harus meninggalkan HTML Anda.
+- `Prettier`: Pemformat kode yang konsisten.
+- `Husky`: Alat untuk mengelola Git hooks, memastikan kode yang di-commit selalu bersih dan terlinting.
+- `Clsx + TailwindMerge`: Alat yang digunakan untuk menggabungkan dan mengatasi adanya deklarasi ulang class tailwind
 
-## Cara Memakai Aplikasi
+## 🛠️ Cara Menggunakan Template Ini
 
-Untuk mendapatkan code ini diversi local atau computer kalian bisa mengikuti langkah langkah sederhana ini:
+Untuk menggunakan template ini, ikuti langkah-langkah berikut:
 
 ### Langkah 1
 
@@ -44,40 +44,84 @@ Setelah itu kalian akan diarahkan untuk membuat repository baru, beri nama repos
 
 Kalian sudah berhasil membuat repository di github. Sekarang kalian bisa meng-clone atau mendownloadnya
 
-### Optional
+### Langkah 4
 
-Jika kalian ingin membuat aplikasi multi-page, jalankan perintah ini:
+Setelah meng-clone repository, jalankan perintah berikut untuk mempersiapkan Husky:
 
-`npm install -S react-router-dom` atau `pnpm install react-router-dom`
+```bash
+npm install && npm run prepare
+```
 
-## Scripts
+Ini akan mengatur Git hooks yang diperlukan untuk memastikan kode yang di-commit selalu terlinting dan terformat dengan baik.
+
+## 🚀 Scripts yang Tersedia
 
 ### Start Dev
 
-`npm run dev` atau `pnpm run dev` atau `yarn run dev` dan buka pada browser pada `http://localhost:3000`
+```bash
+npm run dev
+#OR
+yarn dev
+#OR
+pnpm dev
+```
 
 ### Build dan Production
 
-`npm run build` atau `pnpm run build` atau `yarn run build`
+```bash
+npm run build
+#OR
+yarn build
+#OR
+pnpm build
+```
 
 ### Locally Preview Production atau Build
 
-`npm start` atau `yarn start` dan buka pada browser pada `http://localhost:3000`
+```bash
+npm run preview
+#OR
+yarn preview
+#OR
+pnpm preview
+```
 
 ### Lint Untuk Melihat Kesalahan
 
-`npm run lint` atau `yarn run lint` atau `pnpm run lint`
+```bash
+npm run lint
+#OR
+yarn lint
+#OR
+pnpm lint
+```
 
 ### Lint Untuk Memperbaiki Kesalahan
 
-`npm run lint:fix` atau `yarn run lint:fix` atau `pnpm run lint:fix`
+```bash
+npm run lint:fix
+#OR
+yarn lint:fix
+#OR
+pnpm lint:fix
+```
+
+### Format Menggunakan Prettier
+
+```bash
+npm run format
+#OR
+yarn format
+#OR
+pnpm format
+```
 
 ## Tunjukan Support Kalian
 
 - Dengan cara memberi ⭐ jika kamu menyukai project ini
 - Dengan cara berkontribusi pada project ini untuk meningkatkan kualitas code
 
-# Social Media
+## Social Media
 
 Tetap terhubung dengan saya melalui follow sosmed [Pandhu Arya](https://panntod.github.io/Project-Mandiri/linktree)
 
