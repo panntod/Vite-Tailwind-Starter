@@ -1,19 +1,23 @@
 {
   "name": "vite-tailwind-starter",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx",
-    "lint:fix": "eslint --fix . --ext .js,.jsx",
-    "start": "vite preview"
+    "lint:fix": "eslint --fix . --ext .js,.jsx"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.2.1",
+    "clsx": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^7.1.4",
+    "tailwind-merge": "^3.0.1",
     "vite": "^5.2.10"
   },
   "devDependencies": {
@@ -25,7 +29,6 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-unused-imports": "^3.2.0",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.3"

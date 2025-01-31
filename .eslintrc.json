@@ -7,8 +7,7 @@
   },
   "plugins": [
     "react",
-    "import",
-    "unused-imports"
+    "import"
   ],
   "extends": [
     "airbnb",
@@ -75,8 +74,7 @@
     "react/function-component-definition": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "warn",
-    "import/no-unresolved": "warn", // Jika kamu tidak ingin mendapatkan warn ketika mengimport menggunakan alias, ganti ini menjadi "off"
-    "import/extensions": "off",
-    "semi": "warn"
+    "import/no-unresolved": "off",
+    "import/extensions": "off"
   }
 }
