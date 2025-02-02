@@ -1,128 +1,76 @@
-# Vite + React Starter Template 🚀
+# 🚀 Vite + React + Tailwind CSS Starter Template
 
-## 🌟 Selamat datang di Vite + React Starter Template! 🌟
+A blazing-fast, modern, and highly customizable starter template for building React applications with Vite, Tailwind CSS, and React Router. This project is designed to kickstart your development process with the best tools and practices, ensuring a smooth and efficient workflow.
 
-Repository ini berisi starter template untuk [Vite](https://vitejs.dev) dan [React](https://react.dev) yang siap digunakan. Template ini bersifat open-source dan dapat disesuaikan dengan kebutuhan Anda. Dilengkapi dengan berbagai alat dan pustaka yang berguna, template ini menerapkan praktik terbaik dan perbaikan otomatis saat disimpan.
+## ✨ Features
 
-## 🌈 What's New?
+- ⚡ `Vite`: Lightning-fast build tool and development server.
+- 🎨 `Tailwind CSS`: Utility-first CSS framework for rapid UI development.
+- 🔄 `React Router`: Seamless client-side routing for single-page applications.
+- 🧩 `SWC Support`: Faster builds and hot module replacement with @vitejs/plugin-react-swc.
+- 🧹 `Prettier & ESLint`: Clean, consistent, and error-free code with integrated formatting and linting.
+- 🐶 `Husky`: Git hooks for pre-commit linting and formatting.
+- 📦 `Optimized Imports`: Path aliases for cleaner imports (e.g., @/components/Button).
 
-Template ini sudah dilengkapi dengan beberapa konfigurasi yang disesuaikan dengan kebutuhan pengembangan modern:
+## ❓ Why Use This Template?
 
-- `ESLint`: Menerapkan praktik terbaik dalam penulisan kode JavaScript.
-- `Vite Configuration`: Mendukung import dengan menggunakan alias.
-- `VS Code Configuration`:
-  - Otomatis menginstal ekstensi yang dibutuhkan.
-  - Otomatis memformat dan melakukan linting saat file disimpan.
-- `JavaScript Configuration`:
-  - menerapkan path utama yaitu di `root` directory
-  - memberitahu file javascript untuk menerapkan path `@/*` sama dengan `src/*`
-- `TailwindCSS`: Membuat situs web modern dengan cepat tanpa harus meninggalkan HTML Anda.
+- **Fast Development**: Get started instantly with a pre-configured setup.
+- **Modern Stack**: Built with the latest tools and libraries.
+- **Customizable**: Easily extend or modify to fit your project needs.
+- **Best Practices**: Follows industry standards for code quality and performance.
 
-## 📚 Library yang Digunakan
+## 🛠️ Tech Stack
 
-- `Vite`: Memberikan path alias `@/` untuk memanggil element yang berada di `./src`.
-- `React-router-dom`: Perutean Deklaratif Router untuk React js.
-- `ESLint`: Menemukan dan memperbaiki masalah dalam kode JavaScript dengan tambahan plugin.
-- `TailwindCSS`: Membuat situs web modern dengan cepat tanpa harus meninggalkan HTML Anda.
-- `Prettier`: Pemformat kode yang konsisten.
-- `Husky`: Alat untuk mengelola Git hooks, memastikan kode yang di-commit selalu bersih dan terlinting.
-- `Clsx + TailwindMerge`: Alat yang digunakan untuk menggabungkan dan mengatasi adanya deklarasi ulang class tailwind
+- **Frontend**: React 18, React Router 7
+- **Styling**: Tailwind CSS 3
+- **Build** Tool: Vite 5
+- **Linting**: ESLint + Prettier
+- **Routing**: React Router DOM
+- **Tooling**: Husky, SWC, PostCSS
 
-## 🛠️ Cara Menggunakan Template Ini
+## 📥 Quick Start
 
-Untuk menggunakan template ini, ikuti langkah-langkah berikut:
+To use this template, follow these steps:
 
-### Langkah 1
+### Step 1
 
-Kalian bisa mengclick di bagian pojok kanan atas yang bertuliskan `use this template`
+You can click on the top right corner that says `use this template`
 
-### Langkah 2
+### Step 2
 
-Setelah itu kalian akan diarahkan untuk membuat repository baru, beri nama repository sesuai dengan kebutuhan kalian
+After that you will be directed to create a new repository, name the repository according to your needs
 
-### Langkah 3
+### Step 3
 
-Kalian sudah berhasil membuat repository di github. Sekarang kalian bisa meng-clone atau mendownloadnya
+You have successfully created a repository on github. Now you can clone or download it
 
-### Langkah 4
+### Step 4
 
-Setelah meng-clone repository, jalankan perintah berikut untuk mempersiapkan Husky:
-
-```bash
-npm install && npm run prepare
-```
-
-Ini akan mengatur Git hooks yang diperlukan untuk memastikan kode yang di-commit selalu terlinting dan terformat dengan baik.
-
-## 🚀 Scripts yang Tersedia
-
-### Start Dev
+After cloning the repository, run the following command to set up Husky:
 
 ```bash
-npm run dev
-#OR
-yarn dev
-#OR
-pnpm dev
+pnpm install && pnpm prepare
 ```
 
-### Build dan Production
+This will set up the necessary Git hooks to ensure that committed code is always spun and well-formatted.
 
-```bash
-npm run build
-#OR
-yarn build
-#OR
-pnpm build
-```
+## 🔧 Customization
 
-### Locally Preview Production atau Build
+- Start editing pages in src/pages and customize the routes
+- Add your own components in the src/components directory.
+- Modify tailwind.config.js to customize your design system.
+- Update vite.config.js for additional Vite plugins or configurations.
 
-```bash
-npm run preview
-#OR
-yarn preview
-#OR
-pnpm preview
-```
+## 📄 License
 
-### Lint Untuk Melihat Kesalahan
+This project is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as you see fit.
 
-```bash
-npm run lint
-#OR
-yarn lint
-#OR
-pnpm lint
-```
+## 🌟 Get Started Today
 
-### Lint Untuk Memperbaiki Kesalahan
-
-```bash
-npm run lint:fix
-#OR
-yarn lint:fix
-#OR
-pnpm lint:fix
-```
-
-### Format Menggunakan Prettier
-
-```bash
-npm run format
-#OR
-yarn format
-#OR
-pnpm format
-```
-
-## Tunjukan Support Kalian
-
-- Dengan cara memberi ⭐ jika kamu menyukai project ini
-- Dengan cara berkontribusi pada project ini untuk meningkatkan kualitas code
+Whether you're building a personal project, a startup MVP, or a large-scale application, this starter template has everything you need to hit the ground running. Star ⭐ the repo if you find it useful, and feel free to contribute or open issues for suggestions and improvements!
 
 ## Social Media
 
-Tetap terhubung dengan saya melalui follow sosmed [Pandhu Arya](https://panntod.github.io/Project-Mandiri/linktree)
+Get in touch with me: [Pandhu Arya](https://panntod.github.io/Project-Mandiri/linktree)
 
 > Happy Hacking 🤖
