@@ -1,0 +1,14 @@
+# Abaikan semua file JSON
+**/*.json
+
+# Abaikan file lock
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Abaikan folder node_modules
+node_modules
+
+# Abaikan folder build/dist
+dist
+build
