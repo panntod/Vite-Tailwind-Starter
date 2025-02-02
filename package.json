@@ -1,7 +1,7 @@
 {
   "name": "vite-tailwind-starter",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,7 +19,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.1.4",
     "tailwind-merge": "^3.0.1",
-    "vite": "^5.2.10"
+    "vite": "^5.2.10",
+    "vite-jsconfig-paths": "^2.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
