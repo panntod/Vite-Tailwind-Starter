@@ -1,17 +1,17 @@
 export default function Landing() {
   return (
     <main className="h-screen w-screen flex flex-col-reverse sm:flex-row justify-center items-center bg-gray-900 gap-12 px-4 sm:px-0">
-      <section className="w-full sm:w-1/2">
-        <h1 className="font-bold text-4xl sm:text-6xl text-white mb-4">
+      <section className="w-full sm:w-[720px]">
+        <h1 className="font-bold text-4xl sm:text-6xl text-white mb-4 text-wrap">
           <span className="bg-gradient-to-br text-transparent bg-clip-text from-blue-500 via-purple-500 to-pink-400">
             Vite
           </span>
-          +<span className="bg-gradient-to-b text-transparent bg-clip-text from-blue-400 to-blue-600">React</span>
+          +<span className="bg-gradient-to-b text-transparent bg-clip-text from-blue-400 to-blue-600">React</span>{" "}
           <br />
-          Next Generation <br /> Frontend Tooling
+          Next Generation Frontend Tooling
         </h1>
 
-        <p className="font-semibold text-xl sm:text-4xl text-gray-400 mb-8">
+        <p className="font-semibold text-xl sm:text-3xl text-gray-400 mb-8">
           Get ready for a development environment <br /> that can finally catch up with you.
         </p>
         <a
